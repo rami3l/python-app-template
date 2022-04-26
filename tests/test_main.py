@@ -1,4 +1,4 @@
-from bonjour.main import greeting
+from bonjour.__main__ import greeting
 
 
 def test_greeting():
