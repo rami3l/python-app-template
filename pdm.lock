@@ -45,6 +45,12 @@ version = "1.1.1"
 summary = "iniconfig: brain-dead simple config-ini parsing"
 
 [[package]]
+name = "more-itertools"
+version = "8.12.0"
+requires_python = ">=3.5"
+summary = "More routines for operating on iterables, beyond itertools"
+
+[[package]]
 name = "mypy"
 version = "0.942"
 requires_python = ">=3.6"
@@ -135,7 +141,7 @@ summary = "Backported and Experimental Type Hints for Python 3.7+"
 
 [metadata]
 lock_version = "3.1"
-content_hash = "sha256:d8347ebcdf248f03a77a8cd1ee16e19e768635fa661aeed0154628702f9ebd29"
+content_hash = "sha256:d8bce48633d7d81bf90177844558a3da577f2ee5012b21f5de73622362ce86bc"
 
 [metadata.files]
 "atomicwrites 1.4.0" = [
@@ -182,6 +188,10 @@ content_hash = "sha256:d8347ebcdf248f03a77a8cd1ee16e19e768635fa661aeed0154628702
 "iniconfig 1.1.1" = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
+]
+"more-itertools 8.12.0" = [
+    {file = "more_itertools-8.12.0-py3-none-any.whl", hash = "sha256:43e6dd9942dffd72661a2c4ef383ad7da1e6a3e968a927ad7a6083ab410a688b"},
+    {file = "more-itertools-8.12.0.tar.gz", hash = "sha256:7dc6ad46f05f545f900dd59e8dfb4e84a4827b97b3cfecb175ea0c7d247f6064"},
 ]
 "mypy 0.942" = [
     {file = "mypy-0.942-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:5bf44840fb43ac4074636fd47ee476d73f0039f4f54e86d7265077dc199be24d"},
