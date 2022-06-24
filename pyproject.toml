@@ -1,6 +1,6 @@
 [project]
 name = "bonjour"
-version = ""
+version = "0.0.0"
 description = ""
 authors = [{ name = "rami3l", email = "rami3l@outlook.com" }]
 dependencies = [
@@ -22,3 +22,8 @@ dev = ["black>=22.3.0", "pytest>=7.1.1", "pydbg>=0.3.0", "mypy>=0.942"]
 main = "python -m bonjour"
 test = "pytest tests/"
 fmt = "black ."
+
+# Enable `console_scripts` to be visible to tools like `pipx`.
+# See: https://pdm.fming.dev/latest/pyproject/pep621/#console-scripts
+[project.scripts]
+bonjour = "bonjour.__main__:main"
