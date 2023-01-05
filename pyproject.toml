@@ -27,3 +27,10 @@ fmt = "black ."
 # See: https://pdm.fming.dev/latest/pyproject/pep621/#console-scripts
 [project.scripts]
 bonjour = "bonjour.__main__:main"
+
+[tool.pyright]
+reportUnknownArgumentType = "information"
+reportUnknownLambdaType = "information"
+reportUnknownMemberType = "information"
+reportUnknownParameterType = "information"
+reportUnknownVariableType = "information"
