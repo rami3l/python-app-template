@@ -157,6 +157,7 @@ cython_debug/
 
 # PDM
 .pdm.toml
+.pdm-python
 
 # Dotenv
 .env
